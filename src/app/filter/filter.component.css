@@ -1,0 +1,45 @@
+.modal-dialog {
+    max-width: 45vw;
+    /* Adjust width as needed (e.g., 80% of the viewport width) */
+}
+
+#head-text {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.78px;
+    text-align: left;
+
+}
+
+.input-box {
+    width: 280px;
+    height: 58px;
+    gap: 0px;
+    border-radius: 8px;
+    border: 1px;
+    opacity: 0px;
+    border-color: var(--lightsilver) !important;
+    color: var(--neutralash);
+}
+
+.input-box:hover {
+    border-color: var(--lightsilver) !important;
+    color: var(--neutralash);
+}
+
+.custom-div {
+    width: 280px !important;
+    height: 78px;
+    text-align: left;
+    width: 100%;
+}
+
+.apply-button {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16.94px;
+    text-align: left;
+
+}

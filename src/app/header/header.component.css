@@ -1,0 +1,33 @@
+.header-box {
+    width: Fixed (1, 360px)px;
+    height: Hug (56px)px;
+    gap: 0px;
+    justify-content: space-between;
+    opacity: 0px;
+}
+.icon-close {
+    border: none;
+    background-color: var(--white);
+}
+.company-name {
+    width: Hug (185.06px);
+    height: Hug (55.8px);
+}
+.profile-k {
+    width: 46px;
+height: 46px;
+}
+.header-icons {
+    width: 24px;
+height: 24px;
+gap: 0px;
+opacity: 0px;
+
+}
+.profile-pic {
+    width: 46px;
+height: 46px;
+gap: 0px;
+opacity: 0px;
+
+}

@@ -1,0 +1,43 @@
+<!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal-two" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Create New Compaign</h1>
+        <button type="button" class="btn-close text-dark" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="d-flex">
+          <div class="d-flex flex-column">
+            <label for="Number of items" id="head-text">Comapaign Name</label>
+            <input type="text" value="Drinking Day Celebration" class="border input-box ps-2 mt-2">
+          </div>
+          <div class="d-flex flex-column ms-4">
+            <label for="statusSelect" id="head-text">Compaign Category</label>
+            <select id="statusSelect" class="input-box mt-2 border">
+              <option value="food" selected>Food</option>
+              <option value="water" selected>Water</option>
+              <option value="juice">Juice</option>
+            </select>
+          </div>
+        </div>
+        <div class="d-flex flex-column mt-4">
+          <label for="description" id="head-text">Description</label>
+          <div class="describe-text bg-white text-start border mt-2">
+            <p class="description-text p-2">
+              Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web
+              designs.</p>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <div>
+          <button type="button"routerLink="/create-compaign" class="btn border rounded create-btn">Create Comapaign</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

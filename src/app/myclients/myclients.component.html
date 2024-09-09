@@ -1,0 +1,143 @@
+<div class="container-fluid p-0">
+    <header class="header">
+        <div class="header-content">
+            <app-header></app-header>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <div class="nav-bar d-flex justify-content-between align-items-center">
+            <p class="nav-head mt-3">My Clients</p>
+            <div class="d-flex m-3">
+                <div class="search-box d-flex border">
+                    <i class="bi bi-search mt-2  px-2"></i>
+                    <input type="text" placeholder="Search here" class="input-box">
+                </div>
+                <!-- Filter box -->
+                <div class="filter-box d-flex border ms-2">
+                    <p class="filter-text pt-2 ps-2">Filter</p>
+                    <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <i class="bi bi-filter"></i>
+                    </button>
+                    <app-filter></app-filter>
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th><input type="checkbox" class="checkbox mb-3 ms-2"></th>
+                        <th class="table-header py-4 ms-2">Company Name</th>
+                        <th class="table-header py-4 ps-1">Advertising Agency</th>
+                        <th class="table-header py-4 ps-1">Contact Person</th>
+                        <th class="table-header py-4 ps-1">Contact No.</th>
+                        <th class="table-header py-4 ps-1">Contact Email ID</th>
+                        <th class="table-header py-4 ps-1">No. of Campaign</th>
+                        <th class="table-header py-4 ps-1">Active Since</th>
+                        <th class="table-header py-4 ps-1">Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><input type="checkbox" class="checkbox mt-2 ms-2"></td>
+                        <td class="d-flex">
+                            <img src="assets\images\one-plus-img.jpg" width="33px" height="33px"
+                                class="rounded border mx-2">
+                            <p class="table-data">One Plus Mobile</p>
+                        </td>
+                        <td class="table-data pt-3">SMRT</td>
+                        <td class="table-data pt-3">Udhaya Kumar</td>
+                        <td class="table-data pt-3">6873984889</td>
+                        <td class="table-data pt-3">oneplusg&#64;gmail.com</td>
+                        <td class="table-data pt-3">683</td>
+                        <td class="table-data pt-3">29/11/2023</td>
+                        <td class="table-data pt-3"><button type="submit" class="active-btn">Active</button></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" class="checkbox mt-2 ms-2"></td>
+                        <td class="d-flex">
+                            <img src="assets\images\pepsi-img.jpg" width="40px" height="40px" class="mx-2">
+                            <p class="table-data">Pepsi</p>
+                        </td>
+                        <td class="table-data pt-3 ">SMRT</td>
+                        <td class="table-data pt-3">Udhaya Kumar</td>
+                        <td class="table-data pt-3">6873984889</td>
+                        <td class="table-data pt-3">oneplusg&#64;gmail.com</td>
+                        <td class="table-data pt-3">683</td>
+                        <td class="table-data pt-3">29/11/2023</td>
+                        <td class="table-data pt-3"><button type="submit" class="active-btn">Active</button></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" class="checkbox mt-2 ms-2"></td>
+                        <td class="d-flex">
+                            <img src="assets\images\apple-img.jpg" width="40px" height="40px" class="mx-2">
+                            <p class="table-data">Apple</p>
+                        </td>
+                        <td class="table-data pt-3">SMRT</td>
+                        <td class="table-data pt-3">Udhaya Kumar</td>
+                        <td class="table-data pt-3">6873984889</td>
+                        <td class="table-data pt-3">oneplusg&#64;gmail.com</td>
+                        <td class="table-data pt-3">683</td>
+                        <td class="table-data pt-3">29/11/2023</td>
+                        <td class="table-data pt-3"><button type="submit" class="active-btn">Active</button></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" class="checkbox mt-2 ms-2"></td>
+                        <td class="d-flex">
+                            <img src="assets\images\dell-img.jpg" width="40px" height="40px" class="mx-2">
+                            <p class="table-data">Coco cola</p>
+                        </td>
+                        <td class="table-data pt-3">SMRT</td>
+                        <td class="table-data pt-3">Udhaya Kumar</td>
+                        <td class="table-data pt-3">6873984889</td>
+                        <td class="table-data pt-3">oneplusg&#64;gmail.com</td>
+                        <td class="table-data pt-3">683</td>
+                        <td class="table-data pt-3">29/11/2023</td>
+                        <td class="table-data pt-3"><button type="submit" class="active-btn">Active</button></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" class="checkbox mt-2 ms-2"></td>
+                        <td class="d-flex">
+                            <img src="assets\images\samsung-img.jpg" width="40px" height="40px" class="mx-2">
+                            <p class="table-data">Samsung</p>
+                        </td>
+                        <td class="table-data pt-3">SMRT</td>
+                        <td class="table-data pt-3">Udhaya Kumar</td>
+                        <td class="table-data pt-3">6873984889</td>
+                        <td class="table-data pt-3">oneplusg&#64;gmail.com</td>
+                        <td class="table-data pt-3">683</td>
+                        <td class="table-data pt-3">29/11/2023</td>
+                        <td class="table-data pt-3"><button type="submit" class="active-btn">Active</button></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" class="checkbox mt-2 ms-2"></td>
+                        <td class="d-flex">
+                            <img src="assets\images\dell-img.jpg" width="40px" height="40px" class="mx-2">
+                            <p class="table-data">Dell</p>
+                        </td>
+                        <td class="table-data pt-3">SMRT</td>
+                        <td class="table-data pt-3">Udhaya Kumar</td>
+                        <td class="table-data pt-3">6873984889</td>
+                        <td class="table-data pt-3">oneplusg&#64;gmail.com</td>
+                        <td class="table-data pt-3">683</td>
+                        <td class="table-data pt-3">29/11/2023</td>
+                        <td class="table-data pt-3"><button type="submit" class="active-btn">Active</button></td>
+                    </tr>
+                </tbody>
+
+            </table>
+        </div>
+
+        <div class="footer d-flex justify-content-end">
+            <div class="submit-button">
+            <button type="button" class="btn submit-btn" data-bs-toggle="modal" data-bs-target="#exampleModal-two">
+                Submit
+              </button>
+            <app-filter-two></app-filter-two>
+        </div>
+        </div>
+    </div>
+</div>
+

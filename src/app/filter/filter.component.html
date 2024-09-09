@@ -1,0 +1,35 @@
+<div class="modal fade modal-window overflow-y-auto" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Filter</h5>
+          <button type="button" class="btn-close text-dark" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <div class="d-flex">
+                <div class="d-flex flex-column">
+                    <label for="Number of items" id="head-text">No.of Comapaign</label>
+                    <input type="Number" value="658" class="input-box border ps-2 mt-2">
+                </div>
+                <div class="d-flex flex-column ms-4">
+                  <label for="statusSelect" class="form-label">Status</label>
+                  <select id="statusSelect" class="input-box border">
+                    <option value="active" selected>Active</option>
+                    <option value="inactive">Inactive</option>
+                  </select>
+                </div>
+            </div>
+            <div class="d-flex flex-column mt-3">
+                <label for="text" id="head-text">Active since</label>
+                <input type="date" class="col-6 ps-2 mt-2 border input-box">
+            </div>
+        </div>
+        <div class="modal-footer">
+          <div class="button" routerLink="/myclients">
+            <button type="submit" class="btn btn-dark apply-button text-light px-4 py-2">Apply</button>
+      
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

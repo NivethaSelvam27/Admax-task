@@ -1,0 +1,23 @@
+.list-group{
+    width: Hug (240px)px;
+height: Hug (320px)px;
+top: 100px;
+left: 20px;
+gap: 20px;
+opacity: 0px;
+
+}
+.list-group-item{
+    width: 240px;
+height: 48px;
+gap: 0px;
+opacity: 0px;
+}
+.name-list{
+    font-family: Inter;
+font-size: 16px !important;
+font-weight: 500;
+line-height: 19.36px;
+text-align: left;
+color: var(--black);
+}

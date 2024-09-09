@@ -1,0 +1,195 @@
+* {
+    margin-top: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('/assets/images/city_image.jpg');
+    background-size: 1545px 622.5px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    top: 421.5px;
+    left: -32px;
+    /* width: 1400px;
+height: 422.5px;
+gap: 0px;
+opacity: 0px; */
+}
+
+.company-name {
+    width: Hug (246.74px)px;
+    height: Hug (74.4px)px;
+    top: 42px;
+    left: 597px;
+    padding: 20px 0px 0px 0px;
+    gap: 2px;
+    opacity: 0px;
+
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+    width: 673px;
+    height: 711px;
+    top: 170px;
+    left: 383px;
+    gap: 0px;
+    opacity: 0px;
+    box-shadow: 2px 4px 16px rgba(0, 0, 0, 0) 5%;
+    /* width: 573px;
+    height: 461px;
+    top: 170px;
+    left: 383px; */
+}
+
+.login-form {
+    width: 398.47px;
+    height: 610.92px;
+    left: 520px;
+}
+
+.welcome-back-text {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 45.18px;
+    text-align: left;
+
+}
+
+.login-font {
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30.12px;
+    text-align: left;
+
+}
+
+.web-icon {
+    width: 21.49px;
+    height: 21.92px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.login-form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    font-family: Mulish;
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20.08px;
+    text-align: left;
+
+}
+
+.input-group input {
+    width: 384px;
+    height: 62px;
+    top: 34px;
+    gap: 0px;
+    opacity: 0px;
+    /* 
+    width: 100%;
+    padding: 10px; */
+    border: 1px solid #D9D9D9 !important;
+    border-radius: 50px !important;
+}
+
+.input-group input:hover,
+.input-group input:focus {
+    border: 1px solid #D9D9D9 !important;
+    border-radius: 50px !important;
+}
+
+.check-box {
+    border: 1px;
+    border-color: var(--darkgrey);
+}
+
+.click-text {
+    font-family: Mulish;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.57px;
+    color: var(--darkgrey);
+
+}
+
+.navigate-text {
+    font-family: Mulish;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.57px;
+    color: var(--orange);
+
+}
+
+.input-group button {
+
+    width: 384px;
+    height: 62px;
+    top: 652px;
+    left: 527px;
+    gap: 0px;
+    opacity: 0px;
+    border: none;
+    border-radius: 50px;
+    /* width: 100%;
+    margin-top: 25px;
+    padding: 10px; */
+    cursor: pointer;
+    color: var(--white);
+    background-color: var(--orange);
+}
+
+.input-group button:hover {
+    background-color: var(--orange);
+}
+
+/* .line{
+    color: #A39797;
+} */
+.inline-hr {
+    display: inline-block;
+    width: 23%;
+    vertical-align: middle;
+    border: none;
+    color: var(--lightgrey);
+    border-top: 1px solid #000;
+    margin: 0 10px;
+}
+
+.welcome-text {
+    font-family: Mulish;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15.06px;
+    text-align: left;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.icon-text {
+    font-family: Mulish;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.57px;
+    text-align: left;
+    text-decoration: none;
+    color: var(--black);
+
+}

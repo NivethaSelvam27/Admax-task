@@ -1,0 +1,38 @@
+.reset-font {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30.12px;
+    text-align: left;
+
+}
+
+.mail-font {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15.06px;
+    text-align: left;
+    color: var(--darkblue);
+
+}
+
+.login-btn {
+
+    width: 384px;
+    height: 62px;
+    top: 270px;
+    left: 95px;
+    border: none;
+    border-radius: 50px;
+    color: var(--white);
+    background-color: var(--orange);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25.1px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.login-btn:hover {
+    background-color: var(--orange);
+}
